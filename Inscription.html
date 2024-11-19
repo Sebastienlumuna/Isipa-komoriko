@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Inscription</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/LOGO 1.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+  
+   
+    
+</head>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+   
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img src="img/LOGO 2.jpg" alt="ISIP'A Logo" style="height: 60px;" class="wow fadeInDown">
+                    <span class="ms-2  fw-bold wow fadeInDown">ISIP'A KOMORIKO</span>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                    <div class="navbar-nav text-center mx-auto">
+                        <a href="index.html" class="nav-item nav-link active wow fadeInDown" data-wow-delay="0.1s" onmouseover="this.style.color='#3C3882'" onmouseout="this.style.color=''">Acceuil</a>
+                        <a href="A-propos fin.html" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.3s" onmouseover="this.style.color='#3C3882'" onmouseout="this.style.color=''">A Propos</a>
+                        <a href="" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.5s" onmouseover="this.style.color='#3C3882'" onmouseout="this.style.color=''">Programmes</a>
+                        <a href="" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.7s" onmouseover="this.style.color='#3C3882'" onmouseout="this.style.color=''">Etudiants</a>
+                        <a href="Filières_détaillés.html" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.8s" onmouseover="this.style.color='#3C3882'" onmouseout="this.style.color=''">Nos filières</a>                    
+                        <a href="contact.html" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.9s" onmouseover="this.style.color='#3C3882'" onmouseout="this.style.color=''">Contact</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-block">
+                        <a href="Inscription.html" class="btn rounded-pill py-2 px-3 wow fadeInDown" style="background-color: #3C3882; color: white;" onmouseover="this.style.backgroundColor='white'; this.style.color='#3C3882'; this.style.border='1px solid #3C3882'" onmouseout="this.style.backgroundColor='#3C3882'; this.style.color='white'">S'inscrire</a>
+                    </div>
+                </div>            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/inscription.png) center center no-repeat; background-size: cover;">
+        <div class="container text-center py-5">
+            <h1 class="display-2 text-white mb-4 animated slideInDown">Inscription en Ligne</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="A-propos fin.html">A propos</a></li>
+                    <li class="breadcrumb-item text-primary" aria-current="page">Inscription</li>
+                </ol>
+            </nav>
+        </div>
+    </div>    
+    <!-- Page Header End -->
+    <!-- Conditions d'inscription Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+                <h1 class="display-5 mb-4" style="color: #3C3882; font-weight: bold; font-size: 2.2em; text-transform: uppercase; display: block;">Conditions d'Inscription</h1>
+                <p class="fw-medium">Pour s'inscrire à l'ISIP'A KOMORIKO, les candidats doivent remplir les conditions suivantes:</p>
+            </div>
+            <section id="about" class="about section my-5">
+                <div class="container" data-aos="fade-up">
+                    <div class="row gy-4 mb-5 align-items-center">
+                        <!-- Texte -->
+                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                            <span class="about-meta" style="color: #3C3882; font-weight: bold; font-size: 1.2em; text-transform: uppercase; display: block;">
+                                Conditions d'inscription
+                            </span>
+                            <h2 class="about-title" style="color: #333; font-size: 1.5em; margin: 15px 0; font-weight: bold;">
+                                Nouvelle inscription : pour un nouveau candidat(e)
+                            </h2>
+                            <div class="feature-list-wrapper">
+                                <ul class="feature-list" style="list-style: none; padding-left: 0; font-weight: normal; font-size: 1.1em; line-height: 1.8;">
+                                    <li style="margin-bottom: 10px;">
+                                        <i class="bi bi-check-circle-fill" style="color: #3C3882; margin-right: 10px;"></i>
+                                        Formulaire : 
+                                        <span style="color: #ff0000; font-weight: bold;">20$</span>
+                                    </li>
+                                    <li style="margin-bottom: 10px;">
+                                        <i class="bi bi-check-circle-fill" style="color: #3C3882; margin-right: 10px;"></i>
+                                        Test d'admission (Si moins de 60% aux EXETATS) : 
+                                        <span style="color: #ff0000; font-weight: bold;">10$</span>
+                                    </li>
+                                    <li style="margin-bottom: 10px;">
+                                        <i class="bi bi-check-circle-fill" style="color: #3C3882; margin-right: 10px;"></i>
+                                        Frais administratifs : 
+                                        <span style="color: #ff0000; font-weight: bold;">25$</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <!-- Image -->
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="img-border text-center">
+                                <img class="img-fluid rounded shadow" src="img/etudiants.jpeg" alt="" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+              
+             <br><br>
+             <section id="about" class="about section my-5">
+                <div class="container-fluid" data-aos="fade-up">
+                    <div class="row gy-4 mb-5">
+                        <div class="col-12 wow fadeInLeft" data-wow-delay="0.1s">
+                            <span class="about-meta" style="color: #3C3882; font-weight: bold; font-size: 1.2em; text-transform: uppercase; display: block; text-align: center;">
+                                Dossier d'inscription
+                            </span>
+                            <br>
+                            <p class="about-description" style="font-size: 1.1em; line-height: 1.8; color: #666; text-align: center;">
+                                Formulaire d'inscription, bulletins 5ème et 6ème des humanités, diplôme d'Etat (ou attestation de réussite), 
+                                attestation de bonne vie et moeurs, attestation de naissance et 2 photos passeport (à retirer à l'institut). 
+                                Les relevés de notes sont requis pour les classes inférieures dans le cadre d'une inscription spéciale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+              
+
+            <div class="row g-4 mb-5">
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" style="width: 100%; font-size: 16px;">
+                            <thead style="background-color: #3C3882; color: white; text-align: center;">
+                                <tr>
+                                    <th style="width: 50%;">Cas d'un(e) candidat(e) ayant obtenu 60% ou Plus</th>
+                                    <th style="width: 50%;">Cas d'un(e) candidat(e) ayant obtenu moins de 60%</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        1. Acheter d'abord le formulaire;<br> 
+                                        2. Soumettre son dossier d'inscription pour un Contrôle de conformité. Ensuite, le.la candidat(e)
+                                        procède à l'inscription en s'acquittant de divers frais. Toute personne disposant 
+                                        d'un dossier falsifié ne sera pas autorisée à s'inscrire.
+                                    </td>
+                                    <td>
+                                        1. Acheter le formulaire avant de passer le test;<br>
+                                        2. Réussir au test et procéder au Contrôle de dossier;<br>
+                                        3. Pour une inscription de L2 en M3, le.la Candidat(e)
+                                        présente son dossier à l'apparitorat pour vérification;<br>
+                                        4. Le.la candidat(e) dépose son dossier lors de l'inscription ou le complète 
+                                        dans les 2 mois suivant le début des cours.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="col-12 text-center">
+                            <a 
+                                href="img/Condition.pdf" 
+                                download 
+                                class="btn py-3 px-5 wow fadeInUp" 
+                                style="background-color: #3C3882; color: white; text-decoration: none;" 
+                                onmouseover="this.style.backgroundColor='white'; this.style.color='#3C3882'; this.style.border='1px solid #3C3882'" 
+                                onmouseout="this.style.backgroundColor='#3C3882'; this.style.color='white'">
+                                👉 Télécharger le PDF
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            </div> <br><br><br>
+            <!-- Formulaire d'inscription Start -->
+            <div class="row g-4">
+                <div class="col-12">
+                    <h2 class=" text-center mb-4">Formulaire d'Inscription</h2>
+                    <form class="wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+                                    <label for="nom">Nom</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="postnom" placeholder="Votre postnom">
+                                    <label for="postnom">postnom</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
+                                    <label for="prenom">Prénom</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="Genre">
+                                        <option selected disabled>Sélectionnez Votre Genre</option>
+                                        <option value="Homme">Homme</option>
+                                        <option value="Femme">Femme</option>
+                                    </select>
+                                    <label for="Genre">Votre Genre</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="Nationalité" class="form-control" id="Nationalité" placeholder="Nationalité">
+                                    <label for="Nationalité">Nationalité</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="Etat Civil">
+                                        <option selected disabled>Sélectionnez Votre Etat Civil</option>
+                                        <option value="Marié(e)">Marié(e)</option>
+                                        <option value="Célibataire">Célibataire</option>
+                                    </select>
+                                    <label for="Etat Civil">Votre Etat Civil</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Votre email">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" id="telephone" placeholder="Votre téléphone">
+                                    <label for="telephone">Téléphone</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="adresse" placeholder="Votre adresse">
+                                    <label for="adresse">Adresse</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="filiere">
+                                        <option selected disabled>Sélectionnez une filière</option>
+                                        <option value="informatique de Gestion">Informatique de Gestion</option>
+                                        <option value="Intelligence artificielle">Intelligence artificielle</option>
+                                        <option value="Technique & Maintenance">Technique & Maintenance</option>
+                                        <option value="Communication Numérique">Communication Numérique</option>
+                                        <option value="Génie Logiciel">Génie logiciel</option>
+                                        <option value="Syst Info">Système Info et Admini des Base de données</option>
+                                        <option value="gestion">Gestion Financière</option>
+                                        <option value="marketing">Marketing Digital</option>
+                                        <option value="Banque">Banque, Microfinance et Assurance</option>
+                                        <option value="Fiscalité">Fiscalité</option>
+                                        <option value="Fiscalité,Douane">Fiscalité, Douane et Accises</option>
+                                        <option value="compte, controle">Compté, Contrôle de Gestion et Audit</option> 
+                                    </select>
+                                    <label for="filiere">Filière souhaitée</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="niveau">
+                                        <option selected disabled>Sélectionnez un niveau</option>
+                                        <option value="l1">Licence 1</option>
+                                        <option value="l2">Licence 2</option>
+                                        <option value="l3">Licence 3</option>
+                                        <option value="M1">Master 1</option>
+                                        <option value="M2">Master 2</option>
+                                    </select>
+                                    <label for="niveau">Niveau d'études</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Informations supplémentaires" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Informations supplémentaires</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn py-3 px-5 wow fadeInUp" type="submit" style="background-color: #3C3882; color: white;" onmouseover="this.style.backgroundColor='white'; this.style.color='#3C3882'; this.style.border='1px solid #3C3882'" onmouseout="this.style.backgroundColor='#3C3882'; this.style.color='white'">
+                                    Soumettre l'inscription
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Formulaire d'inscription End -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Nos adresses</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>14, Croisement avenue OUA - KOMORIKO C/KITAMBO Réf : Stade vélodrome</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+243)819 338 004</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>isipa@gmail.com</p>                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Liens rapides</h4>
+                    <a class="btn btn-link" href="">Acceuil</a>
+                    <a class="btn btn-link" href="">A Propos</a>
+                    <a class="btn btn-link" href="">Programmes</a>
+                    <a class="btn btn-link" href=""> Étudiants</a>
+                    <a class="btn btn-link" href=""> Contact</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Heures d'ouverture</h4>
+                    <p class="mb-1">Lundi - Vendredi</p>
+                    <h6 class="text-light">08h00 - 21h00
+                    </h6>
+                    <p class="mb-1">Samedi</p>
+                    <h6 class="text-light">08h00 - 16h00</h6>
+                    <p class="mb-1">Dimanche</p>
+                    <h6 class="text-light">Fermer</h6>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Envoi Mail</h4>
+                    <p>Envoyez-nous un Mail</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre Mail">
+                        <button type="button" class="btn btn-light py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    © <a class="fw-medium" style="color: #3C3882; font-weight: bold;" href="#">ISIP'A KOMORIKO</a>, <span style="color: #3C3882; font-weight: bold;">Tous droits réservés.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <span style="color: #3C3882;">Designed By</span> <a class="fw-medium" style="color: #3C3882;" href="#">ConTech</a>
+                </div>
+            </div>
+        </div>
+    </div>    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style="background-color: #3C3882; border-color: #3C3882; transition: all 0.3s ease;"><i class="bi bi-arrow-up"></i></a>
+
+<style>
+.back-to-top:hover {
+    background-color: red !important;
+    border-color: red !important;
+}
+</style>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    
+</body>
+
+</html>

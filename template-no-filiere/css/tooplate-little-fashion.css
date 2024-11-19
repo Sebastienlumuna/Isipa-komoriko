@@ -1,0 +1,130 @@
+
+
+  .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #008bf8;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+  }
+  
+  
+  
+  /*Hover*/
+  .card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+  }
+
+  .card{
+    border-radius: 15px; /* Ajustez la valeur pour plus ou moins d'arrondi */
+  }
+
+  .product-image {
+    border-radius: 15px; /* Ajustez la valeur pour plus ou moins d'arrondi */
+  }
+  /*---------------------------------------
+              
+  ----------------------------------------*/
+  .product-thumb {
+    background: var(--white-color);
+    position: relative;
+    transition: all 0.5s ease-out;
+  }
+
+  .product-image {
+    transition: all 0.5s ease-out;
+  }
+
+  .product-thumb:hover .product-image {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  }
+
+  .product-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 20px;
+  }
+
+  .product-info {
+    padding: 30px 20px;
+  }
+
+  .product-description,
+  .product-cart-thumb {
+    padding: 0 20px;
+  }
+
+  .product-icon {
+    color: var(--white-color);
+  }
+
+  .product-title-link {
+    color: var(--dark-color)  ;
+  }
+
+  .product-additional-link {
+    display: inline-block;
+    vertical-align: top;
+    font-size: var(--product-link-font-size);
+    margin-top: 32px;
+    margin-right: 12px;
+  }
+
+  .badge-price {
+    font-weight: bold; /* Rend le texte du badge plus gras */
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    top: 10px;
+    left: 10px;
+  }
+
+  /* Style pour le titre */
+  .product-title-link {
+    font-weight: bold; /* Rend le titre en gras */
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .product-title-link:hover {
+    color: #007bff; /* Change la couleur du titre au survol */
+  }
+
+  /* Style pour le texte aligné à droite */
+  .card-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Aligne le texte à droite */
+    font-size: 14px;
+    color: #555;
+  }
+
+  .card-text::before { /* Icône (remplace l'URL par ton icône) */
+    margin-right: 5px;
+  }
+
+  .view-all {
+    text-transform: uppercase;
+    color: var(--p-color);
+    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+    border-bottom: 2px solid var(--grey-color);
+    padding-bottom: 6px;
+  }
